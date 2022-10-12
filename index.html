@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Javascript website</title>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+            />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">Photo<span>pi</span>X</div>
+                <div class="menu">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-search"></i>
+                    <a href="#">Login</a>
+                </div>
+            </nav>
+
+            <section class="h-text">
+                <i class="fa fa-camera" id="camera"></i>
+                <h1 data-aos="fade-up">Capturing the moments that captivate your heart.</h1>
+                <input type="text" placeholder="Search here..." />
+                <button><i class="fa fa-search"></i></button>
+            </section>
+        </header>
+
+        <section class="filter-gallery">
+            <div class="portflio-menu">
+                <ul>
+                    <li class="active" data-filter="*">All</li>
+                    <li data-filter=".nature">Nature</li>
+                    <li data-filter=".fashion">Fashion</li>
+                    <li data-filter=".wedding">Wedding</li>
+                </ul>
+            </div>
+
+            <div class="portflio-item">
+                <div class="item nature" data-aos="flip-left" data-aos-offset="100"
+                data-aos-delay="100">
+                    <img src="img/nature.jpg" height="100" width="100" />
+                </div>
+                <div class="item fashion" data-aos="flip-left" data-aos-offset="100"
+                data-aos-delay="200">
+                    <img src="img/fashion.jpg" height="100" width="100" />
+                </div>
+                <div class="item wedding" data-aos="flip-left" data-aos-offset="100"
+                data-aos-delay="300">
+                    <img src="img/wedding.jpg" height="100" width="100" />
+                </div>
+
+                <div class="item nature" data-aos="zoom-in" data-aos-offset="100"
+                data-aos-delay="100">
+                    <img src="img/nature1.jpg" height="100" width="100" />
+                </div>
+                <div class="item fashion" data-aos="zoom-in" data-aos-offset="100"
+                data-aos-delay="200">
+                    <img src="img/fashion1.jpg" height="100" width="100" />
+                </div>
+                <div class="item wedding" data-aos="zoom-in" data-aos-offset="100"
+                data-aos-delay="300">
+                    <img src="img/nature2.webp" height="100" width="100" />
+                </div>
+
+                <div class="item nature" data-aos="zoom-in-up" data-aos-offset="100"
+                data-aos-delay="100">
+                    <img src="img/header.jpg" height="100" width="100" />
+                </div>
+                <div class="item fashion" data-aos="zoom-in-up" data-aos-offset="100"
+                data-aos-delay="200">
+                    <img src="img/nature4.webp" height="100" width="100" />
+                </div>
+                <div class="item wedding" data-aos="zoom-in-up" data-aos-offset="100"
+                data-aos-delay="300">
+                    <img src="img/nature3.webp" height="100" width="100" />
+                </div>
+            </div>
+        </section>
+
+        <section class="member">
+            <div class="member-info" data-aos="zoom-in-up" data-aos-offset="100"
+            data-aos-delay="100">
+                <h1>Our <span>Information</span></h1>
+                <p>What our member says</p>
+            </div>
+            <div class="member-card" data-aos="zoom-in-down" data-aos-offset="100"
+            data-aos-delay="200">
+                <img src="img/doll.jpg">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Suscipit facilis doloribus voluptates amet doloremque. Iste
+                    quas est vitae expedita at ullam rem atque hic dicta sunt
+                    libero, culpa excepturi sint, maiores omnis molestiae
+                    laborum recusandae nesciunt! Mollitia fuga dolor, odit
+                    recusandae quos qui veniam, quas ipsum nobis aliquid
+                    tenetur. Laudantium!</p>
+                <h2>* Meria Sharapova</h2>
+                <img src="img/face.png" width="100">
+                <img src="img/insta.jpg" width="100">
+                <img src="img/wat1.png" width="100">
+                <img src="img/tw.jpg" width="100">
+            </div>
+
+            <div class="m-images" data-aos="zoom-in" data-aos-offset="100"
+            data-aos-delay="300">
+                <img src="img/soft.jpg">
+                <img src="img/soft1.jpg">
+                <img
+                    src="https://media-exp1.licdn.com/dms/image/C5603AQE-0quK9J4xuw/profile-displayphoto-shrink_800_800/0/1660843821857?e=1669852800&v=beta&t=29dSWC6ODJpEF57l1C95UH1KgchIUKFFRaHd7z3tvbs">
+                <img src="img/soft3.jpg">
+                <img src="img/soft6.jpg">
+                <img src="img/soft.jpg">
+            </div>
+        </section>
+
+        <footer>
+            <div class="newslatter">
+                <div data-aos="fade-up" data-aos-offset="200">
+                    <h2>Subscribe our newsletter</h2>
+                    <p>We are team of non-cynics who truly care of our work.</p>
+                </div>
+                <div class="ntext" data-aos="fade-up-right" data-aos-offset="200">
+                    <label>
+                        <input type="text" placeholder="Enter your email">
+                        <button>Subscibe</button>
+                    </label>
+                </div>
+            </div>
+
+            <div class="f-contact">
+                <div data-aos="fade-in-up" data-aos-offset="200">
+                    <h1>Information</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Reiciendis Ratione!</p>
+                        <i class="fa fa-twitch"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-telegram"></i>
+                        <i class="fa fa-twitter"></i>
+                </div>
+
+                <div>
+                    <h1>Useful links</h1>
+                    <p>About us</p>
+                    <p>Gallery</p>
+                    <p>Blog posts</p>
+                    <p>Pricing plans</p>
+                </div>
+
+                <div>
+                    <h1>Details</h1>
+                    <p>Photographs</p>
+                    <p>Gallery</p>
+                    <p>Blog posts</p>
+                    <p>Pricing plans</p>
+                </div>
+
+                <div>
+                    <h1>Help & Supports</h1>
+                    <p>Privancy Policy</p>
+                    <p>Terms & Coditions</p>
+                    <p>Technical Support</p>
+                    <p>Customer Care</p>
+                </div>
+            </div>
+        </footer>
+
+        <script
+            src="https://code.jquery.com/jquery-3.6.1.min.js"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+            crossorigin="anonymous"></script>
+
+        <script
+            src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+        <script>
+      $(".portflio-item").isotope({
+        // options
+        itemSelector: "item",
+        layoutMode: "fitRows",
+      });
+
+      $(".portflio-menu ul li").click(function () {
+        $(".portflio-menu ul li").removeClass("active");
+        $(this).addClass("active");
+
+        var selector = $(this).attr('data-filter');
+        $('.portflio-item').isotope({
+            filter:selector
+        });
+        return false;
+      });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    </body>
+</html>
